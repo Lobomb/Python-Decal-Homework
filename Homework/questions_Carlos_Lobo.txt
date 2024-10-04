@@ -1,11 +1,18 @@
 1. What are 3-5 (or more) commands that you can use on terminal and what do they do? What language is your computer terminal in?
+cd - changes directory/ navigates folders
+
+pwd - dislpays path
+
+mkdir - creates new folder
 
 2. Do you have pets? What kind?
+I have three dogs. They are all shih-tzus.
 
 3. If you run across an error, what would your first course of action be?
+I'd look for syntax errors.
 
 4. Funniest thing that happened to you in high school.
-
+I wore a wedding dress.
 5. What is a python script? (Keep it simple)
-
+A file that contains python code which executes a specific task.
 
