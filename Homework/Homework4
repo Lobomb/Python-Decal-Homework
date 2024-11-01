@@ -1,0 +1,28 @@
+#2.1 Making a List Variable
+#NameError: name 'List_numbers_to_twnty' is not defined  -Silly typos, put ":" instead of "=" and spelled twenty as twnty
+List_numbers_to_twenty = list(range(1,21))
+print(List_numbers_to_twenty)
+
+#2.2 Working With List Elements
+List_numbers_to_twenty = list(range(1, 21))
+def squareList():
+    return [x ** 2 for x in List_numbers_to_twenty]
+squared_List_numbers_to_twenty = squareList()
+print(squared_List_numbers_to_twenty)  
+
+#2.3 Slicing
+#TypeError: first_fifteen_elements() missing 1 required positional argument: 'lst' - I forgot to put "squared_List_numbers_to_twenty" in the argument.
+def first_fifteen_elements(lst):
+    return lst[:15] 
+first_fifteen = first_fifteen_elements(squared_List_numbers_to_twenty)
+print(first_fifteen)
+
+#2.4 Striding
+squared_List_numbers_to_twenty = squareList()
+def every_fifth_element(lst):
+    return lst[4::5] 
+fifth_elements = every_fifth_element(squared_List_numbers_to_twenty)
+print(fifth_elements)
+
+# 3 3D Lists
+#3.1 Creating a 5x5 2D List
